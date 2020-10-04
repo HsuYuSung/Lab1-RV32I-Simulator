@@ -37,7 +37,7 @@ forj:
 
 if:		
 		lw		s2, 0(t1)
-		lw		s3, 4(t1)
+		lw		s3, 0(t2)
         add     t5, s2, s3
         beq     t5, s1, print
        	j		forj
