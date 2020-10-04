@@ -20,7 +20,7 @@ int* twoSum(int* nums, int numsSize, int target){
 int main()
 {
     int *ans;
-    int nums[] = {1, 2, 34};
-    ans = twoSum(nums, 3, 35);
+    int nums[] = {2, 7, 11, 15};
+    ans = twoSum(nums, 4, 26);
     printf("%d, %d", ans[0], ans[1]);
 }
